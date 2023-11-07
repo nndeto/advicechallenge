@@ -1,16 +1,13 @@
-import "./css/style.css"
+import "./css/style.css";
+import Footer from './components/Footer';
+import React from 'react';
 
 function App() {
 
   return (
     <>
-      <footer>
-        <div >
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="https://builtbynicole.dev">Nicole Ndeto</a>.
-        </div>
-      </footer>
-        
+      <p>hello</p>
+      <Footer />  
     </>
   )
 }
