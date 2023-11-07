@@ -4,3 +4,7 @@ body {
     font-family: 'Manrope', sans-serif;
     background: hsl(218, 23%, 16%);
 }
+
+.container {
+    color: white;
+}
