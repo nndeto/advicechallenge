@@ -17,6 +17,7 @@ body {
     padding: 20px 40px;
     border-radius: 20px;
     max-width: 400px;
+    flex-shrink: 2;
     text-align: center;
     position: relative;
 }
@@ -42,12 +43,15 @@ body {
     right: 20px;
 }
 
+.mobile-linebreak {
+    display: none;
+}
+
 .advice-button {
     position: absolute;
     left: 216px;
     padding: 15px;
     border-radius: 50%;
-  
     border: none;
     background:hsl(150, 100%, 66%);
 }
@@ -68,4 +72,32 @@ footer a {
 
 footer a:hover {
     opacity: .5;
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 250px;
+        margin: 0px 20px;
+    }
+
+    .advice-linebreak {
+        display: none;
+    }
+
+    .mobile-linebreak {
+        display: inline-block;
+        margin-bottom: 40px;
+        position: relative;
+        right: 20px;
+    }
+
+    .advice-button {
+        position: absolute;
+        left: 142px;
+    }
+
+    footer {
+        margin: 80px 40px;
+    }
+
 }
