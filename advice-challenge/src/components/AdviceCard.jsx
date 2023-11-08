@@ -6,7 +6,7 @@ import hr from "../assets/images/pattern-divider-desktop.svg"
 import mhr from "../assets/images/pattern-divider-mobile.svg"
 
 function AdviceCard() {
-        const [advice, setAdvice] = useState("There is none")
+        const [advice, setAdvice] = useState("There is none. So click the button to get some. (:")
         const [number, setNumber] = useState(0)
 
         let getAdvice = () => {
