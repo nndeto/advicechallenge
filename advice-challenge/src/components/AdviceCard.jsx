@@ -26,9 +26,9 @@ function AdviceCard() {
         <>
             <div class = "container">
                 <div class = "card">
-                    <p>Advice #{number}</p>
-                    <p>{advice}</p>
-                    <hr />
+                    <p class = "advice-header">Advice #{number}</p>
+                    <p class = "advice-body">{advice}</p>
+                    <hr class = "advice-linebreak"/>
                     <Button newAdvice = {getAdvice}/>
                     {/* <button 
                         id ="buttonClick"

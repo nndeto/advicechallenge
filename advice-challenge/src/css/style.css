@@ -6,5 +6,39 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    background: hsl(217, 19%, 24%);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.advice-header {
+
+}
+
+.advice-body {
+
+}
+
+.advice-linebreak {
+
+}
+
+.advice-button {
+
+}
+
+footer {
     color: white;
+}
+
+footer a {
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    margin: 20px 0px;
 }
