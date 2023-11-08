@@ -27,7 +27,7 @@ function AdviceCard() {
             <div class = "container">
                 <div class = "card">
                     <p class = "advice-header">Advice #{number}</p>
-                    <p class = "advice-body">{advice}</p>
+                    <p class = "advice-body">"{advice}"</p>
                     <hr class = "advice-linebreak"/>
                     <Button newAdvice = {getAdvice}/>
                     {/* <button 

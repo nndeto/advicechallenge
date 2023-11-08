@@ -9,20 +9,28 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 20vh;
 }
 
 .card {
     background: hsl(217, 19%, 24%);
-    padding: 50px;
+    padding: 20px 50px;
     border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
 }
 
 .advice-header {
-
+    color: hsl(150, 100%, 66%);    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .advice-body {
-
+    color:hsl(193, 38%, 86%);
+    font-size: 28px;
 }
 
 .advice-linebreak {
@@ -35,10 +43,14 @@ body {
 
 footer {
     color: white;
+    text-align: center; 
+    margin: 40px 0px;
 }
 
 footer a {
     color: hsl(150, 100%, 66%);
-    text-align: center;
-    margin: 20px 0px;
+}
+
+footer a:hover {
+    opacity: .5;
 }
