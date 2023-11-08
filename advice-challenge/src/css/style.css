@@ -35,16 +35,19 @@ body {
     font-weight: 800;
 }
 
+
 .advice-linebreak {
-    /* color: hsl(217, 19%, 38%) ; */
-    /* color:hsl(193, 38%, 86%); */
     margin-bottom: 40px;
+    position: relative;
+    right: 20px;
 }
 
 .advice-button {
     position: absolute;
-    border-radius: 50%;
+    left: 216px;
     padding: 15px;
+    border-radius: 50%;
+  
     border: none;
     background:hsl(150, 100%, 66%);
 }

@@ -16,7 +16,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Grayish Blue: hsl(217, 19%, 38%) - 
+- Grayish Blue: hsl(217, 19%, 38%) - hr line break
 - Dark Grayish Blue: hsl(217, 19%, 24%) - card background
 - Dark Blue: hsl(218, 23%, 16%) - web page background
 

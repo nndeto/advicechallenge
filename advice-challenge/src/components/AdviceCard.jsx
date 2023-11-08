@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import axios from 'axios';
-import '../css/style.css'
 import Button from "./Button"
+import '../css/style.css'
+import hr from "../assets/images/pattern-divider-desktop.svg"
 
 function AdviceCard() {
         const [advice, setAdvice] = useState("There is none")
@@ -28,7 +29,7 @@ function AdviceCard() {
                 <div class = "card">
                     <p class = "advice-header">Advice #{number}</p>
                     <p class = "advice-body">"{advice}"</p>
-                    <hr class = "advice-linebreak"/>
+                    <img class = "advice-linebreak" src ={hr} />
                     <Button newAdvice = {getAdvice}/>
                     {/* <button 
                         id ="buttonClick"
