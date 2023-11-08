@@ -2,8 +2,8 @@ import { useState } from "react"
 import axios from 'axios';
 import Button from "./Button"
 import '../css/style.css'
-import hr from "../assets/images/pattern-divider-desktop.svg"
-import mhr from "../assets/images/pattern-divider-mobile.svg"
+import lb from "../assets/images/pattern-divider-desktop.svg"
+import mlb from "../assets/images/pattern-divider-mobile.svg"
 
 function AdviceCard() {
         const [advice, setAdvice] = useState("There is none. So click the dice button to get some.")
@@ -30,8 +30,8 @@ function AdviceCard() {
                 <div class = "card">
                     <p class = "advice-header">Advice #{number}</p>
                     <p class = "advice-body">"{advice}"</p>
-                    <img class = "advice-linebreak" src ={hr} />
-                    <img class = "mobile-linebreak" src = {mhr} />
+                    <img class = "advice-linebreak" src ={lb} />
+                    <img class = "mobile-linebreak" src = {mlb} />
                     <Button newAdvice = {getAdvice}/>
                     {/* <button 
                         id ="buttonClick"
